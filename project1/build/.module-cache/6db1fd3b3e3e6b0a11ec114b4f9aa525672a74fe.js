@@ -9,7 +9,7 @@ var Note = React.createClass({displayName: "Note",
             right: this.randomBetween(0, window.innerWidth - 150 ) + 'px',
             top: this.randomBetween(0, window.innerHeight - 150 ) + 'px',
             transform: 'rotate(' + this.randomBetween(-15, 15) + 'deg)',
-            backgroundColor:'rgba(' + Math.ceil(Math.random() * 255) + ', ' + Math.ceil(Math.random() * 255) + ',' + Math.ceil(Math.random() * 255) + ', 1)'
+            backgroundColor:'rgba(' + Math.ceil(Math.random() * 50) + ', ' + Math.ceil(Math.random() * 50) + ',' + Math.ceil(Math.random() * 50) + ', 1)'
         };
     },
     componentDidMount: function() {
